@@ -6,12 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style rel="stylesheet" href="./styles/style.css" type="text/style"></style>
+    <link rel="stylesheet" href="/styles/style.css" type="text/css" />
 </head>
 
 <body>
-    <h1>This is all about experiment!</h1>
-    <p>This page is made to experiment to see, how this is rendered from the server as response</p>
+    <% include partials/nav.ejs %>
+    <h1>Contact Us!</h1>
+    <p>Hello
+        <%= data.name %>!</p>
+    <p>You are successfully contacted!</p>
+    </form>
 </body>
 
 </html>
